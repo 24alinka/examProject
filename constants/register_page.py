@@ -1,0 +1,13 @@
+class RegisterPageConstants:
+    REGISTER_CHECKBOX_MALE_XPATH = ".//input[@id='gender-male']"
+    REGISTER_CHECKBOX_FEMALE_XPATH = ".//input[@id='gender-female']"
+    REGISTER_INPUT_FIRST_NAME_XPATH = ".//input[@data-val-required='First name is required.']"
+    REGISTER_INPUT_LAST_NAME_XPATH = ".//input[@data-val-required='Last name is required.']"
+    REGISTER_INPUT_EMAIL_XPATH = ".//input[@id='Email']"
+    REGISTER_INPUT_PASSWORD_XPATH = ".//input[@id='Password']"
+    REGISTER_INPUT_CONFIRM_PASSWORD_XPATH = ".//input[@id='ConfirmPassword']"
+    REGISTER_BUTTON_XPATH = ".//input[@value='Register']"
+    REGISTER_SUCCESSFULLY_REGISTRATION_XPATH = ".//div[@class='result']"
+    REGISTER_SUCCESSFULLY_REGISTRATION_TEXT = "Your registration completed"
+    ERROR_REGISTER_WRONG_EMAIL = ".//span[@for= 'Email']"
+    ERROR_REGISTER_WRONG_TEXT = "Wrong email"

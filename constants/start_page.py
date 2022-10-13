@@ -1,0 +1,11 @@
+class StartPageConstants:
+    INPUT_NEWSLETTER_XPATH = ".//input[@id='newsletter-email']"
+    SUBSCRIBE_BUTTON_FOR_EMAIL_XPATH = ".//input[@value='Subscribe']"
+    THANK_YOU_TEXT_XPATH = ".//div[@id='newsletter-result-block']"
+    THANK_YOU_TEXT = "Thank you for signing up! A verification email has been sent. We appreciate your interest."
+    ERROR_SUBSCRIBE_XPATH = ".//div[@class='newsletter-result-block']"
+    ERROR_SUBSCRIBE_TEXT = "Enter valid email"
+    OPEN_PRODUCT_XPATH = ".//a[@href='/build-your-cheap-own-computer']"
+    ADD_PRODUCT_TO_THE_SHOPPING_CART_XPATH = ".//input[@id='add-to-cart-button-72']"
+    POP_UP_ADDED_PRODUCT_TO_THE_SHOPPING_CART_TEXT = "The product has been added to your shopping cart"
+    POP_UP_ADDED_PRODUCT_TO_THE_SHOPPING_CART_XPATH = ".//p[@class='content']"
